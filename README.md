@@ -24,7 +24,7 @@ In the project root directory run:
 (venv) $ pip install -r requirments.txt
 ```
 
-**4. Create a new MySQL Schema name it as fuelgr-django or modify settings.py and query files accordingly:**
+**4. Create a new MySQL Schema name it as fuelgr-django or modify settings.py (currently configured for xampp) and query files accordingly:**
 
 ```
 From the database folder run sql queries in this order
