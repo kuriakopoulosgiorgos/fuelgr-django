@@ -26,6 +26,8 @@ DROP TABLE IF EXISTS `fuelgr-django`.`users` ;
 CREATE TABLE IF NOT EXISTS `fuelgr-django`.`users` (
   `username` VARCHAR(45) NOT NULL,
   `password` VARCHAR(45) BINARY NOT NULL,
+  `last_login` datetime(6) DEFAULT NULL,
+  `is_superuser` tinyint(1) NOT NULL DEFAULT '0',
   `email` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`username`),
   UNIQUE INDEX `email_UNIQUE` (`email` ASC))
