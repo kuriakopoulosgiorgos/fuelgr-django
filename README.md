@@ -3,6 +3,7 @@
 
 # ![Logo](https://fuelgr.gr/web/img/app_logo/fuelGR-map.png) Fuelgr-django
 
+
 Το project κάνει χρήση των εννοιών που διδάχτηκαν στο μάθημα και του python framework το django
 
 ## Quickstart
@@ -23,7 +24,7 @@ In the project root directory run:
 (venv) $ pip install -r requirments.txt
 ```
 
-**4. Create a new MySQL Schema and modify settings.py accordingly:**
+**4. Create a new MySQL Schema name it as fuelgr-django or modify settings.py and query files accordingly:**
 
 ```
 From the database folder run sql queries in this order
