@@ -11,7 +11,7 @@
 **1. Clone the repository:**
 
 ```
-$ git clone https://github.com/kuriakopoulosgiorgos/fuelgr-django.git
+$ git clone https://github.com/kuriakopoulosgiorgos/fuelgr-django-backend.git
 ```
 
 **2. create a new virtual environment:**
